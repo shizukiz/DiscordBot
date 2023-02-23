@@ -127,4 +127,4 @@ async def unmute(ctx, member: discord.member):
 	await ctx.send(f"Unmuted {member.mention}")
 	await member.send(f"You were unmuted in the server {ctx.guild.name}")
 
-client.run('MTAzNDUzODQ0NzcxNDY1NjM1Nw.GseTWl.RcMBq7xKBNyRH52wn28PXUMQ3E99Xm_m2REXaU')
+client.run('YourToken')
